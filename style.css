@@ -1,0 +1,228 @@
+body{
+    background-color:white;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.menu{
+    border-radius: 0 0 10px 10px ;
+    background-color: rgb(241, 134, 241);
+    color: rgb(195, 141, 245);
+    position:fixed;
+    width: 940px;
+    
+}
+
+.menu ul{
+    display: flex;
+    margin-left: 120px;
+    padding: 20px ;
+}
+
+.menu li{
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-left: 20px;
+    padding: 5px;
+    
+}
+
+.menu li:hover{
+
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.849);
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.inicio{
+
+    background-color: rgb(245, 185, 240);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    display: flex;
+    width: 940px;
+    padding-top: 50px;
+}
+
+.dados-pessoais{
+    padding: 80px;
+}
+    
+.dados-pessoais h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(54, 10, 37);
+    padding: 5px;
+    
+  
+    
+}
+.dados-pessoais .cargo{
+    font-size: 1.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(25, 158, 103);
+    margin-top: 10px;
+    padding: 5px;
+    
+    
+}
+.dados-pessoais p{
+    margin: 10px;
+    padding: auto;
+    font-size: 1.5em;
+    color:  rgb(157, 12, 170);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+
+.perfil{
+    margin-left: 20px;
+    margin-bottom: 120px;
+    border: 5px solid #ddb9d8;
+    box-shadow: 0 0 10px rgba(160, 26, 250, 0.795);
+    border-radius: 140px;
+    width: 240px;
+    margin-top: 50px;
+    
+}
+
+.redes-sociais{
+    padding-left: 50px;
+    padding-top: 80px;
+}
+
+.icone{
+    width: 23px;
+
+  
+}
+.imagens{
+    width: 40px;
+    margin-left: 25px;
+    margin-top: 15px;
+
+}
+
+.sobremim{
+    background-color: #caa4ca; ;
+}
+
+.texto-sobre-mim img{
+    width: 50%;
+    padding: 30px;
+    
+}
+.sobremim h3, .experiencia h3, .educacao h3, .habilidades h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    padding: 30px;
+}
+
+.texto-sobre-mim{
+    display: flex;
+}
+
+.texto-sobre-mim p{
+    text-align: justify;
+    border-radius: 20px 20px ;
+    font-style: italic;
+    font-size: 20px;
+    width: 50%;
+    padding: 20px;
+}
+
+.experiencia{
+    background-color: #daa3ce;
+    padding-bottom: 30px;
+}
+
+.experiencia p{
+    background-color: #bfeef7de;
+    width: 80%;
+    color: #53046b;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 25px;
+    margin: 25px auto;
+
+}
+
+.educacao {
+    background-color: #daa3ce;
+    padding-bottom: 30px;
+    
+}
+.educacao p{
+    background-color: #bfeef7de;
+    width: 80%;
+    color: #53046b;
+    font-size: 1.2em;
+    border-radius: 25px;
+    text-align: center;
+    margin: 25px auto;
+    padding: 10px;
+
+}
+
+.habilidades {
+    background-color: #daa3ce;
+    padding-bottom: 30px;
+}
+
+
+.habilidades p{
+    background-color: #bfeef7de;
+    width: 80%;
+    color: #53046b;
+    font-size: 1.2em;
+    border-radius: 25px;
+    text-align: center;
+    margin: 25px auto;
+    padding: 10px;
+}
+.informacoes {
+    background-color:  rgb(168, 50, 189);
+    padding-bottom: 30px;
+    font-size: 1.2em;
+    text-align: center;
+    padding:  20px auto;
+    color: #ffffff;
+ }
+
+.rodape{
+    width: 20px;
+    width: 25px;
+    left: 200px;
+    top: 45px;
+    left: -280px;
+    top: 20px;
+}
+
+
+@media screen and (max-width: 480px) {
+
+.menu, .inicio, .sobremim, .experiencia, .educacao .cursoscomplementares, .informacoes, .fale-comigo{
+    width: auto;
+    }
+    {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .sobremim h3, .experiencia h3, .educacao h3, .habilidades h3 {
+        width: 100%;
+    }
+ 
+}
+
